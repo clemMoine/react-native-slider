@@ -168,7 +168,6 @@ export default class Slider extends PureComponent {
      */
     animationConfig : PropTypes.object,
 
-
     /**
      * Set to true to update the value whilst clicking the Slider
      */
@@ -186,7 +185,7 @@ export default class Slider extends PureComponent {
     thumbTouchSize: {width: 40, height: 40},
     debugTouchArea: false,
     animationType: 'timing',
-    trackClickable: false
+    trackClickable: false,
   };
 
   state = {
